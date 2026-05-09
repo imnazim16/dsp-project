@@ -390,7 +390,7 @@ header {
 }
 
 .home-menue-bar ul li a:hover {
-	color: var(--hover-color);
+	color: #0a58ca;
 }
 
 .home-menue-bar {
@@ -432,7 +432,7 @@ header {
 }
 
 .home-menue-bar li:hover::after {
-	background-color: var(--hover-color);
+	background-color: #0a58ca;
 	width: 22px;
 	padding-right: 0.5rem;
 }
@@ -441,7 +441,7 @@ header {
 	color: #000;
 }
 .home-contact-info ul li a:hover {
-	color: rgba(8, 113, 250, 0.699);
+	color: rgba(8, 113, 250);
 }
 
 .home-logo {
@@ -735,6 +735,9 @@ header {
 	font-size: 16px;
 	font-weight: 500;
 }
+.butn:hover{
+	background-color: #0059ff !important;
+}
 .main-img {
 	width: 415px;
 	height: 415px;
@@ -872,6 +875,7 @@ header {
 	background-repeat: no-repeat;
 	background-position: 0% 100%;
 	background-size: cover;
+	border-top: 1px solid #e0e0e0;
 }
 /* .footer-sec .foot-shapes {
 	position: absolute;
@@ -2313,7 +2317,7 @@ header {
 	background-color: transparent;
 	border-radius: 0;
 	border: 0;
-	border-bottom: 1px solid var(--font-colour);
+	border-bottom: 1px solid #949494;
 	padding: 15px 0;
 	width: 100%;
 }
@@ -2390,6 +2394,8 @@ section {
 /* --- Login Form Section --- */
 .login-form-sec.sec-padding {
 	padding: 1rem 0;
+	background: #d3e5ff;
+    height: 100vh;
 }
 
 .form-container {
@@ -2397,8 +2403,9 @@ section {
 	width: 500px;
 	margin: 45px auto;
 	/* box-shadow: 0 0px 5px #c1bebe; */
-	box-shadow: 0 0 10px rgba(8, 113, 250, 0.699);
+	box-shadow: 0 0 10px rgb(156 156 156 / 70%);
 	border-radius: 1rem;
+	background: #fff;
 }
 
 .login-form-bx {
@@ -2419,7 +2426,7 @@ section {
 	border-radius: 0.5rem;
 	background: transparent;
 	border-bottom: 1px solid;
-	border-color: var(--box-shadow);
+	border-color: #949494;
 }
 
 .login-form-sec .login-field-bx .input-field {
@@ -2438,7 +2445,9 @@ section {
 	cursor: pointer;
 	border-radius: 0.5rem;
 }
-
+.login-btn:hover {
+	background-color: #0059ff;
+}
 .login-form-container p {
 	text-align: center;
 }
@@ -2489,7 +2498,7 @@ section {
 	font-size: 2.8rem;
 	color: var(--font-colour);
 	text-align: center;
-	margin: 2rem 0 1.5rem;
+	margin: 0 0 1.5rem;
 }
 
 .signup-form-container .form-control {
@@ -2515,7 +2524,7 @@ section {
 	background-color: transparent;
 	border-radius: 0;
 	border: 0;
-	border-bottom: 1px solid var(--font-colour);
+	border-bottom: 1px solid #949494;
 	padding: 15px 0;
 	width: 100%;
 }
@@ -2571,22 +2580,23 @@ section {
 }
 
 .signup-main-container-two {
-	padding: 1rem 2rem;
+	padding: 2.5rem;
 	border: 1px solid #ebebeb;
 	border-radius: 2rem;
-	box-shadow: 0 0 20px rgba(8, 113, 250, 0.698);
+	box-shadow: 0 0 10px rgb(156 156 156 / 70%);
+	background: #fff;
 }
 .form-img {
 	margin-top: 37px;
 }
 
 .back-box .back-btn {
-	color: #000;
+	color: #fff;
 	border-radius: 100%;
 	margin: 0 0 0 8rem;
-	background: #ebebeb;
+	background: #151515;
 	font-size: 1.2rem;
-	box-shadow: 0 0 10px #ebebeb;
+	/* box-shadow: 0 0 10px #ebebeb; */
 	transition: 0.5s;
 	height: 60px;
 	width: 60px;
@@ -2600,6 +2610,8 @@ section {
 }
 .signup-form-sec.sec-padding {
 	padding: 1rem 0;
+	background: #d3e5ff;
+    height: 100vh;
 }
 .signup-main-container-two .login-btn {
 	display: flex;
@@ -2615,6 +2627,7 @@ section {
 
 .home-menue-bar ul li ul {
 	margin-left: 0;
+	display: none;
 }
 
 .home-menue-bar li ul li {
@@ -2668,7 +2681,7 @@ section {
 }
 
 .home-menue-bar ul li:hover .srvc-content-bx {
-	color: var(--hover-color);
+	color: #0a58ca;
 }
 
 .home-menue-bar ul li .srvc-content-bx span {
@@ -2708,7 +2721,7 @@ section {
 }
 
 .resources-content-bx:hover {
-	color: var(--hover-color);
+	color: #0a58ca;
 }
 
 /* --- Publisher Section --- */
