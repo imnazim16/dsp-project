@@ -1132,6 +1132,9 @@ header {
 	transition: 0.5s;
 	text-align: left;
 }
+.features-sec .feat-card h6{
+	color: #0059ff;
+}
 .features-sec .feat-card p {
 	line-height: 1.6;
 }
@@ -1197,9 +1200,10 @@ header {
 .testimonial-sec .testi-card .main-txt {
 	font-size: 24px;
 	font-weight: bold;
-	padding-bottom: 15px;
+	/* padding-bottom: 15px;
 	margin-bottom: 20px;
-	border-bottom: 1px solid rgba(153, 153, 153, 0.2);
+	border-bottom: 1px solid rgba(153, 153, 153, 0.2); */
+	color: #0059ff;
 }
 .fw-500 {
 	font-weight: 500 !important;
@@ -2012,7 +2016,9 @@ header {
 	border: 1px solid #9995;
 	border-radius: 30px;
 }
-
+.srvc-inn-pg-sec .feat-card h6{
+	color: #0059ff;
+}
 .vision-sec .main-text {
 	font-size: 2.5rem;
 	font-weight: 500;
@@ -2180,7 +2186,9 @@ header {
 	border: 1px solid #9995;
 	border-radius: 30px;
 }
-
+.solution-info-sec .feat-card h6{
+	color: #0059ff;
+}
 .solution-info-sec .feat-card {
 	position: relative;
 	overflow: hidden;
@@ -2196,7 +2204,7 @@ header {
 	display: flex;
 	align-items: center;
 	line-height: 2;
-	background: #f6f6f6;
+	background: #e7f4ff;
 	border-radius: 30px;
 	transform: translateX(-100%);
 	opacity: 0;
@@ -3012,4 +3020,8 @@ section {
 	height: 2px;
 	border-radius: 50%;
 	background: #0871fa;
+}
+
+.top-cont h6{
+	color: #0059ff;
 }
