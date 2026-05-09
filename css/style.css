@@ -2403,7 +2403,7 @@ section {
 	width: 500px;
 	margin: 45px auto;
 	/* box-shadow: 0 0px 5px #c1bebe; */
-	box-shadow: 0 0 10px rgb(156 156 156 / 70%);
+	box-shadow: 0 0 20px rgb(156 156 156 / 50%);
 	border-radius: 1rem;
 	background: #fff;
 }
@@ -2583,7 +2583,7 @@ section {
 	padding: 2.5rem;
 	border: 1px solid #ebebeb;
 	border-radius: 2rem;
-	box-shadow: 0 0 10px rgb(156 156 156 / 70%);
+	box-shadow: 0 0 20px rgb(156 156 156 / 50%);
 	background: #fff;
 }
 .form-img {
